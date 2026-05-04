@@ -1,17 +1,9 @@
 # DeformationInterpretation — InSAR Deformation Interpretation
 
+A supervised deep-learning framework for classifying and localising coseismic surface deformation from InSAR interferograms. Three backbone families are implemented and compared: **CNN** (ResNet), **ViT** (Vision Transformer), and **ViM** (Vision Mamba).
 > General implementation of **"Automated deformation detection and interpretation using InSAR data and a multi-task ViT model"**  
 > Abdallah, M., Younis, S., Wu, S., & Ding, X. (2026). *International Journal of Applied Earth Observation and Geoinformation*, 128, 103758  .  
 > [10.1016/j.jag.2024.103758](https://doi.org/10.1016/j.jag.2024.103758)
-A supervised deep-learning framework for classifying and localising coseismic surface deformation from InSAR interferograms. Three backbone families are implemented and compared: **CNN** (ResNet), **ViT** (Vision Transformer), and **ViM** (Vision Mamba).
-
----
-
-## Desktop Application
-
-![App](https://user-images.githubusercontent.com/75666946/235572851-4ae92c0e-f8c5-454c-bcff-11eaa37bf6ed.png)
-
-A companion desktop application is provided for interactive interpretation of coseismic deformation results.
 
 ---
 
@@ -187,6 +179,14 @@ CheckPoints/CNN/2024_09_24_14_18_31/
 
 - **`test.ipynb`** — loads a saved checkpoint and evaluates on new data.
 - **`tsne.ipynb`** — extracts backbone features and projects them with t-SNE to visualise class separability.
+
+---
+
+## Desktop Application
+
+![App](https://user-images.githubusercontent.com/75666946/235572851-4ae92c0e-f8c5-454c-bcff-11eaa37bf6ed.png)
+
+A companion desktop application is provided for interactive interpretation of coseismic deformation results.
 
 ---
 
