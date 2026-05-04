@@ -1,5 +1,8 @@
-# DeformationInterpretation
+# DeformationInterpretation — InSAR Deformation Interpretation
 
+> General implementation of **"Automated deformation detection and interpretation using InSAR data and a multi-task ViT model"**  
+> Abdallah, M., Younis, S., Wu, S., & Ding, X. (2026). *International Journal of Applied Earth Observation and Geoinformation*, 128, 103758  .  
+> [10.1016/j.jag.2024.103758](https://doi.org/10.1016/j.jag.2024.103758)
 A supervised deep-learning framework for classifying and localising coseismic surface deformation from InSAR interferograms. Three backbone families are implemented and compared: **CNN** (ResNet), **ViT** (Vision Transformer), and **ViM** (Vision Mamba).
 
 ---
@@ -9,19 +12,6 @@ A supervised deep-learning framework for classifying and localising coseismic su
 ![App](https://user-images.githubusercontent.com/75666946/235572851-4ae92c0e-f8c5-454c-bcff-11eaa37bf6ed.png)
 
 A companion desktop application is provided for interactive interpretation of coseismic deformation results.
-
----
-
-## Related Publication
-
-This repository accompanies the following peer-reviewed paper:
-
-> **Automated deformation detection and interpretation using InSAR data and a multi-task ViT model**  
-> Mahmoud Abdallah, Samaa Younis, Songbo Wu, Xiaoli Ding  
-> *International Journal of Applied Earth Observation and Geoinformation*, 128 (2024), 103758  
-> DOI: [10.1016/j.jag.2024.103758](https://doi.org/10.1016/j.jag.2024.103758)
-
-**Abstract:** We present a new advanced deep learning model based on a multi-task vision transformer (MT-ViT) to automatically detect, locate, and interpret deformation using single interferograms. The MT-ViT model achieved **99.4 % classification accuracy**, **54.1 % mean IoU**, and **0.9 km localisation accuracy**, showing significant improvement in both accuracy and computational efficiency over CNN-based approaches.
 
 ---
 
